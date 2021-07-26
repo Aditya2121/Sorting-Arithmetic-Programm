@@ -7,3 +7,5 @@ read -p "Enter value" c
 	echo $X
 	Y=$(( $a * $b + $c ))
         echo $Y
+	Z=$(( $c / $a + $b ))
+        echo $Z
