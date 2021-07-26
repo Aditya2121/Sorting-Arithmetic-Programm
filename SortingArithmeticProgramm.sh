@@ -17,3 +17,5 @@ read -p "Enter value" c
 	Arithmetic[3]=$Z 
 	Arithmetic[4]=$P
 	echo ${Arithmetic[@]}
+	echo "printing the value in descending sort are"
+	sort -r  Arithmetic
