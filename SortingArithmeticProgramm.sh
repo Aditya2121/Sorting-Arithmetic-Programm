@@ -11,3 +11,8 @@ read -p "Enter value" c
         echo $Z
 	P=$(( $a % $b + $c ))
         echo $P
+	declare -A Arithmetic
+	Arithmetic[1]=$X
+	Arithmetic[2]=$Y
+	Arithmetic[3]=$Z 
+	Arithmetic[4]=$P
