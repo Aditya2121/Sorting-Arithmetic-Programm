@@ -9,3 +9,5 @@ read -p "Enter value" c
         echo $Y
 	Z=$(( $c / $a + $b ))
         echo $Z
+	P=$(( $a % $b + $c ))
+        echo $P
