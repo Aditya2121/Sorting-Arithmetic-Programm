@@ -16,3 +16,4 @@ read -p "Enter value" c
 	Arithmetic[2]=$Y
 	Arithmetic[3]=$Z 
 	Arithmetic[4]=$P
+	echo ${Arithmetic[@]}
